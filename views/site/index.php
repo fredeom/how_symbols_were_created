@@ -12,7 +12,7 @@ $this->title = 'Application for path generation';
 
         <div class="row">
             <div class="col-lg-4">
-              <?= \yii\helpers\Html::beginForm('/site/index', 'post') ?>
+              <?= \yii\helpers\Html::beginForm('/web/site/index', 'post') ?>
                 <?= \yii\helpers\Html::textInput('text', $text) ?>
                 <?= \yii\helpers\Html::submitButton('Submit') ?>
               <?= \yii\helpers\Html::endForm() ?>
